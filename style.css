@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #071952;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    /* background-color: #fff; */
+    margin: 130px 60px auto 100px;
+    height: 300px;
+    width:700px;
+    padding :10px;
+}
+.title1{
+    padding:10px 10px 0px 20px;
+    color:#fff;
+}
+.title2{
+    padding:10px 10px 5px 20px;
+    color:#65B741;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.passwordbox{
+    margin: 25px 10px 10px 20px;
+    height:55px;
+    width:500px;
+    display: flex;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.passworddigitbox{
+    width: 100%;
+    margin: 25px 10px 10px 20px;
+    height:55px;
+    display: flex;
+    width:500px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.password{
+    width:90%;
+    border: none;
+    outline: none;
+    margin: auto 20px auto;
+}
+.passwordigit{
+    width:fit-content;
+    margin: auto 20px auto;
+    border: none;
+    outline: none;
+    flex:1;
+}
+.enter{
+    height:30px;
+    width:30px;
+    margin: auto 20px auto;
+    cursor: pointer;
+}
+.copy{
+    height:22px;
+    width:20px;
+    margin: auto 20px auto;
+    cursor: pointer;
+}
+.generatebutton{
+    margin:25px 10px 10px 20px;
+    height:55px;
+    width:200px;
+    border-radius: 5px;
+    background-color: #65B741;
+    display: flex;
+    color:#fff;
+    cursor: pointer;
+}
+.generate{
+    padding: 1px 0px 0px 1px;
+    width:10%;
+    height: 25px;
+    width:25px;
+    margin:auto 5px auto 10px;
+}
+.generatecontent{
+    margin:auto 0px;
+}
+.passwordbox{
+    display: none;
+}
+.generatebutton{
+    display: none;
+}
